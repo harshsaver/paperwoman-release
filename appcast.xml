@@ -8,29 +8,27 @@
     <description>Software updates for Paperwoman.</description>
     <language>en</language>
 
-    <!--
-      Each release is one <item>. After `./build.sh --notarize` in the source
-      repo, run:
-
-          .build/artifacts/sparkle/Sparkle/bin/sign_update dist/Paperwoman.dmg
-
-      which prints  sparkle:edSignature="…" length="…".  Upload the .dmg as a
-      GitHub Release asset on this repo (tag vX.Y.Z), then add an item like:
-
-      <item>
-        <title>Version 0.3.0</title>
-        <sparkle:version>3</sparkle:version>
-        <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-        <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-        <description><![CDATA[ First public release. ]]></description>
-        <enclosure
-          url="https://github.com/harshsaver/paperwoman-release/releases/download/v0.3.0/Paperwoman.dmg"
-          sparkle:edSignature="PASTE_FROM_sign_update"
-          length="PASTE_BYTE_LENGTH"
-          type="application/octet-stream" />
-      </item>
-    -->
+    <item>
+      <title>Version 0.3.0</title>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Wed, 08 Jul 2026 22:52:29 +0000</pubDate>
+      <description><![CDATA[
+        <p>First public release.</p>
+        <ul>
+          <li>Soft paper-texture matte over your whole screen, with 9 paper styles.</li>
+          <li>Adjustable strength; excluded from screenshots and recordings.</li>
+          <li>Auto-pause on battery, over photo/video/design apps, and browser video.</li>
+          <li>Multi-monitor control, launch at login, and a menu-bar quick toggle.</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/harshsaver/paperwoman-release/releases/download/v0.3.0/Paperwoman.dmg"
+        sparkle:edSignature="jgz8bkTHrZU1gsJY1nFhsKadiBzAkJoE09qYm2ehNG1A2cwV35gJY051ZsQwVITQVLnU8ZFCCFgZ0k2i3nDwBQ=="
+        length="4527273"
+        type="application/octet-stream" />
+    </item>
 
   </channel>
 </rss>
