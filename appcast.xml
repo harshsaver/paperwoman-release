@@ -9,6 +9,20 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.3.1</title>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Wed, 08 Jul 2026 23:04:03 +0000</pubDate>
+      <description><![CDATA[ <p>Sharper hero banner and minor polish.</p> ]]></description>
+      <enclosure
+        url="https://github.com/harshsaver/paperwoman-release/releases/download/v0.3.1/Paperwoman.dmg"
+        sparkle:edSignature="re1RXKp20kUmSSm5Xg7LDSf5uQdqDXuCCFImKZbYJilZvGJD9r68dh4AMdAGiEF/ccXX8JrVsUA+3d6WOJFjDg=="
+        length="4527310"
+        type="application/octet-stream" />
+    </item>
+
+    <item>
       <title>Version 0.3.0</title>
       <sparkle:version>4</sparkle:version>
       <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
