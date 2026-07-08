@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Paperwoman</title>
+    <link>https://raw.githubusercontent.com/harshsaver/paperwoman-release/main/appcast.xml</link>
+    <description>Software updates for Paperwoman.</description>
+    <language>en</language>
+
+    <!--
+      Each release is one <item>. After `./build.sh --notarize` in the source
+      repo, run:
+
+          .build/artifacts/sparkle/Sparkle/bin/sign_update dist/Paperwoman.dmg
+
+      which prints  sparkle:edSignature="…" length="…".  Upload the .dmg as a
+      GitHub Release asset on this repo (tag vX.Y.Z), then add an item like:
+
+      <item>
+        <title>Version 0.3.0</title>
+        <sparkle:version>3</sparkle:version>
+        <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+        <description><![CDATA[ First public release. ]]></description>
+        <enclosure
+          url="https://github.com/harshsaver/paperwoman-release/releases/download/v0.3.0/Paperwoman.dmg"
+          sparkle:edSignature="PASTE_FROM_sign_update"
+          length="PASTE_BYTE_LENGTH"
+          type="application/octet-stream" />
+      </item>
+    -->
+
+  </channel>
+</rss>
