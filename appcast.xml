@@ -9,6 +9,20 @@
     <language>en</language>
 
     <item>
+      <title>Version 0.3.2</title>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 09 Jul 2026 17:29:41 +0000</pubDate>
+      <description><![CDATA[ <p>Fixes the installer disk image so the app installs to Applications correctly.</p> ]]></description>
+      <enclosure
+        url="https://github.com/harshsaver/paperwoman-release/releases/download/v0.3.2/Paperwoman.dmg"
+        sparkle:edSignature="iO5Nnho5o99LLfMcKWoAAmobfnSCK5VqKdpLsGPK3VW6ThIseGf+/XRqhlyz5uEC7tNCfsUqCJ4vcGDnfSYiBQ=="
+        length="4527349"
+        type="application/octet-stream" />
+    </item>
+
+    <item>
       <title>Version 0.3.1</title>
       <sparkle:version>5</sparkle:version>
       <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
